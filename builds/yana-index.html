@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="../assets/css/Dark-NavBar-2.css">
     <link rel="stylesheet" href="../assets/css/Dark-NavBar.css">
     <link rel="stylesheet" href="../assets/css/Header-Blue.css">
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../src/styles/styles.css">
 </head>
 
 <body>
-    <!-- Navbar : Ys don't touch.-->
-    <div>
+    <header></header>
+
+    <!-- Navbar -->
+    <div id="navbar">
         <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button"
             style="height:80px;background-color:#37434d;color:#ffffff;">
             <div class="container-fluid"><a class="navbar-brand" href="#"></i>Project Burrito</a><button
@@ -26,8 +28,9 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;">Home</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="about.html">About</a></li> -->
+                        <li class="nav-item"><a class="nav-link" style="color:#ffffff;">About</a></li>
                         <li class="nav-item"><a class="nav-link" style="color:#ffffff;" href="#">Meet The Team</a></li>
                         <li class="nav-item"></li>
                     </ul>
@@ -39,19 +42,52 @@
 
     <!-- Write Content here Yana -->
 
-    <!-- Todo : Home Page - Paragraph Tag - "Welcome ....."-->
-    <div class="jumbotron text-center">
-        <h1>Welcome, to the Game Development of CSUN VR World and Art Gallery!</h1>
+    <div id="Welcome">
+        <!-- Todo : Home Page - Paragraph Tag - "Welcome ....."--> 
+        <div class="jumbotron text-center">
+            <h1>Welcome, to the Game Development of CSUN VR World and Art Gallery!</h1>
+        </div>
+
+        <!-- Todo : Home Page - Video  Tag - "Link To Video"-->
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe style="display: block; margin: auto;" width="560" height="340" src="https://www.youtube.com/embed/ru0K8uYEZWw" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Todo : Home Page - Paragraph Tag - "Some Box Description ..."-->
+        <div class="container">
+            <p style="text-align: left; padding-top: 100px; padding-left: 150px; padding-right: 150px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style="text-align: left; padding-top: 10px; padding-left: 150px; padding-right: 150px;"><h3><strong>How to Play?</strong></h3></p>
+            <p style="text-align: left; padding-top: 3px; padding-left: 150px; padding-right: 150px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style="text-align: left; padding-top: 10px; padding-left: 150px; padding-right: 150px;"><h3><strong>Download For Free with PC:</strong></h3></p>
+            <p style="text-align: left; padding-top: 3px; padding-left: 150px; padding-right: 150px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <p style="text-align: left; padding-top: 10px; padding-left: 150px; padding-right: 150px;"><h3><strong>Download For Free for VR Headsets:</strong></h3></p>
+            <p style="text-align: left; padding-top: 3px; padding-left: 150px; padding-right: 150px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <div class="text-center">
+            <p style="padding-top: 7px; padding-left: 300px; padding-right: 300px;"><h3><strong>Thank you, and Enjoy!</strong></h3></p>
+        </div>
     </div>
 
-    <!-- Todo : Home Page - Video  Tag - "Link To Video"-->
+    <div id="about">
+        <h3 style="text-align: center;font-family: 'Source Sans Pro', sans-serif; margin-top:25px;">About The Project</h3>
+        <div class="container">
+            <p style="width: 573px;padding: 0;margin: 10px;text-align: left;padding-right: -1px;margin-left: 300px;height: 300px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lobortis lorem. Integer aliquam sapien urna, nec feugiat eros finibus non. Praesent suscipit, tortor sed fermentum laoreet, purus ligula semper mauris, ut auctor eros metus vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lobortis lorem. Integer aliquam sapien urna, nec feugiat eros finibus non. Praesent suscipit, tortor sed fermentum laoreet, purus ligula semper mauris, ut auctor eros metus vel risus.<br /><br /><br /></p>
+        </div>
+    </div>
 
-    <!-- Todo : Home Page - Paragraph Tag - "Some Box Description ..."-->
+ 
+    
+
+    
 
     <!-- End of Content here -->
     <header></header>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../src/js/index.js"></script>
 </body>
+
+<script>
+</script>
 
 </html>
