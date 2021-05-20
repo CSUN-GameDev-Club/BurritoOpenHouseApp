@@ -1,6 +1,24 @@
 /* #navbar > li > a:hover{
     background-color:#FCC;
 } */
+.nav-item:hover {
+    /* background-color: #FCC; */
+    opacity: 60%;
+  }
 .about{
     margin-bottom: 550px;
+}
+
+h3{
+    margin-left: 1px;
+}
+
+.container-fluid button{
+    color: red;
+    
+}
+
+.navigation-clean-button.navbar-light .navbar-nav .nav-link {
+    color:red;
+
 }

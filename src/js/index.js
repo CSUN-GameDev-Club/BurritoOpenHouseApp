@@ -1,3 +1,5 @@
+// let pageLeftOn = "";
+
 $('#navbar').on('click', 'a', function (e) {
 
     // 'this' is the clicked anchor
@@ -8,11 +10,13 @@ $('#navbar').on('click', 'a', function (e) {
         document.getElementById("Welcome").style.display = "none";
         // document.getElementById("about").style.visibility = "visible";
         document.getElementById("about").style.display = "block";
+        // pageLeftOn = "A";
         $('#about')
     }
     else if (this.text == "Home") {
         document.getElementById("Welcome").style.display = "block";
         document.getElementById("about").style.display = "none";
+        // pageLeftOn = "H";
     }
 
 
@@ -22,4 +26,14 @@ $('#navbar').on('click', 'a', function (e) {
 
 document.addEventListener('DOMContentLoaded', function (e) {
     document.getElementById("about").style.display = "none";
+    // if(pageLeftOn == "A")
+    // {
+    //     document.getElementById("Welcome").style.display = "none";
+    // }
+    // else
+    // {
+    //     document.getElementById("about").style.display = "none";
+    //     document.getElementById("Welcome").style.display = "block";
+    // }
+       
 });
