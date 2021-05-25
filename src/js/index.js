@@ -18,6 +18,19 @@ $('#navbar').on('click', 'a', function (e) {
         document.getElementById("about").style.display = "none";
         // pageLeftOn = "H";
     }
+    else if (this.text == "Meet The Team") {
+        document.getElementById("Welcome").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("Meet the Team").style.display = "block";
+        // pageLeftOn = "H";
+    }
+    else if (this.text == "Credits") {
+        document.getElementById("Welcome").style.display = "none";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("Meet the Team").style.display = "none";
+        document.getElementById("Credits").style.display = "block";
+        // pageLeftOn = "H";
+    }
 
 
     // here add to local storage;
@@ -26,6 +39,8 @@ $('#navbar').on('click', 'a', function (e) {
 
 document.addEventListener('DOMContentLoaded', function (e) {
     document.getElementById("about").style.display = "none";
+    document.getElementById("Meet the Team").style.display = "none";
+    document.getElementById("Credits").style.display = "none";
     // if(pageLeftOn == "A")
     // {
     //     document.getElementById("Welcome").style.display = "none";
