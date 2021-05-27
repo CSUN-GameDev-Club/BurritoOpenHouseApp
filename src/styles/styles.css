@@ -101,7 +101,6 @@ body {
 }
 
 /* [Yana's] Credits Page Styles */
-
 #credits {
   padding: 40px;
 }
@@ -110,12 +109,14 @@ body {
   #credits {
     padding: 20px;
   }
+}
  
 /* [Anastasia's] Styles */
   #meet-the-team .jumbotron {
     background-color: rgba(255,255,255,0.75);
     max-height: 100px;
   }
+  
 
 #credits .jumbotron {
   border-radius: 20px;

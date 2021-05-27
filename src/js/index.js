@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', function (e) {
     document.getElementById("about").style.display = "none";
     document.getElementById("Meet the Team").style.display = "none";
     document.getElementById("Credits").style.display = "none";
-    console.log("refresh");
     // if(pageLeftOn == "A")
     // {
     //     document.getElementById("Welcome").style.display = "none";
