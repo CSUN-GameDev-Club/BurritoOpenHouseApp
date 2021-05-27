@@ -48,7 +48,7 @@ h3{
 
 body {
     background-size: cover;
-    background-image: url(https://images.pexels.com/photos/3945655/pexels-photo-3945655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+    background-image: url(https://images.pexels.com/photos/3945655/pexels-photo-3945655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   }
 
   #welcome-message .jumbotron {
