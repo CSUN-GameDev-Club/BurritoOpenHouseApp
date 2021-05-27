@@ -5,6 +5,10 @@
     /* background-color: #FCC; */
     opacity: 60%;
   }
+
+  .navbar{
+    background-color: rgb(90, 114, 136);
+  }
 .about{
     margin-bottom: 550px;
 }
@@ -17,6 +21,10 @@ h3{
     padding-top: 10px;
 }
 
+#last-pdf{
+  background-color: inherit;
+}
+
 .container-fluid button{
     color: red;
     
@@ -26,13 +34,13 @@ h3{
     border-radius: 20px;
     padding: 40px;
     opacity: 100%;
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.95);
     max-width: 800px;
     margin: 0 auto;
 }
 
 .navigation-clean-button.navbar-light .navbar-nav .nav-link {
-    color:red;
+    color:black;
 
 }
 
