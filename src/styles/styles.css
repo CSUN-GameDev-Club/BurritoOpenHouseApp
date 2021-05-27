@@ -2,100 +2,126 @@
     background-color:#FCC;
 } */
 .nav-item:hover {
-    /* background-color: #FCC; */
-    opacity: 60%;
-  }
+  /* background-color: #FCC; */
+  opacity: 60%;
+}
 
-  .navbar{
-    background-color: rgb(90, 114, 136);
-  }
+.navbar{
+  background-color: rgb(90, 114, 136);
+}
 .about{
-    margin-bottom: 550px;
+  margin-bottom: 550px;
 }
 
 h3{
-    margin-left: 1px;
+  margin-left: 1px;
 }
 
 #assets{
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 #last-pdf{
-  background-color: inherit;
+background-color: inherit;
 }
 
 .container-fluid button{
-    color: red;
-    
+  color: red;
+  
 }
 
 .container{
-    border-radius: 20px;
-    padding: 40px;
-    opacity: 100%;
-    background-color: rgba(255,255,255,0.95);
-    max-width: 800px;
-    margin: 0 auto;
+  border-radius: 20px;
+  padding: 40px;
+  opacity: 100%;
+  background-color: rgba(255,255,255,0.95);
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .navigation-clean-button.navbar-light .navbar-nav .nav-link {
-    color:black;
+  color:black;
 
 }
 
 /* [Yana's] Home Page Styles */
 
 body {
-    background-size: cover;
-    background-image: url(https://images.pexels.com/photos/3945655/pexels-photo-3945655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  }
+  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/3945655/pexels-photo-3945655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
 
-  #welcome-message .jumbotron {
-    background-color: rgba(255,255,255,0.95);
-  }
-  
-  #welcome-video {
-    padding: 40px;
-  }
-  
-  #welcome-video .container {
-    border-radius: 20px;
-    background-color: rgba(255,255,255,0.95);
-    padding: 40px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
+#welcome-message .jumbotron {
+  background-color: rgba(255,255,255,0.95);
+}
+
+#welcome-video {
+  padding: 40px;
+}
+
+#welcome-video .container {
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.95);
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#how-to-play {
+  padding: 40px;
+}
+
+@media (min-width: 992px) {
   #how-to-play {
-    padding: 40px;
+    padding: 20px;
   }
-  
-  @media (min-width: 992px) {
-    #how-to-play {
-      padding: 20px;
-    }
-  }
-  
+}
+
+#how-to-play .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.95);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
   #how-to-play .jumbotron {
-    border-radius: 20px;
-    padding: 40px;
-    background-color: rgba(255,255,255,0.95);
-    max-width: 800px;
-    margin: 0 auto;
+    padding: 20px;
   }
-  
-  @media (min-width: 992px) {
-    #how-to-play .jumbotron {
-      padding: 20px;
-    }
-  }
+}
 
-  .fa.fa-gamepad {
-    font-size: 70px;
-  }
+.fa.fa-gamepad {
+  font-size: 70px;
+}
 
-  #thank-you {
-    padding: 50px;
-    text-align: center;
+#thank-you {
+  padding: 50px;
+  text-align: center;
+}
+
+/* [Yana's] Credits Page Styles */
+
+#credits {
+  padding: 40px;
+}
+
+@media (min-width: 992px) {
+  #credits {
+    padding: 20px;
   }
+}
+
+#credits .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 992px) {
+  #credits .jumbotron {
+    padding: 20px;
+  }
+}
