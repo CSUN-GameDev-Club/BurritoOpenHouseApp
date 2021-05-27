@@ -44,7 +44,7 @@ body {
   }
 
   #welcome-message .jumbotron {
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.95);
   }
   
   #welcome-video {
@@ -53,7 +53,7 @@ body {
   
   #welcome-video .container {
     border-radius: 20px;
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.95);
     padding: 40px;
     max-width: 800px;
     margin: 0 auto;
@@ -72,7 +72,7 @@ body {
   #how-to-play .jumbotron {
     border-radius: 20px;
     padding: 40px;
-    background-color: rgba(255,255,255,0.75);
+    background-color: rgba(255,255,255,0.95);
     max-width: 800px;
     margin: 0 auto;
   }
@@ -82,7 +82,11 @@ body {
       padding: 20px;
     }
   }
-  
+
+  .fa.fa-gamepad {
+    font-size: 70px;
+  }
+
   #thank-you {
     padding: 50px;
     text-align: center;
