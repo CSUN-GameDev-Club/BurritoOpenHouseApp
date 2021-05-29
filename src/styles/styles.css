@@ -30,6 +30,10 @@ background-color: inherit;
   
 }
 
+li{
+  padding-left: 30px;
+}
+
 .container{
   border-radius: 20px;
   padding: 40px;
